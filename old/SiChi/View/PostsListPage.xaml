@@ -1,0 +1,62 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="SiChi.View.PostsListPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True"
+    Style="{StaticResource PageTranstionStyle}">
+
+    <!--LayoutRoot 是包含所有页面内容的根网格-->
+    <Grid x:Name="LayoutRoot">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Image/OtherPage.jpg"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel 包含应用程序的名称和页标题-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" Text="" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Foreground="Black" x:Name="PageTitle" Text="浏览帖子" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+                <TextBlock Text="           " />
+                <Button Name="sendPost" BorderThickness="0"  Content="发帖" Click="sendPost_Click">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Image/Button.png"/>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+        </StackPanel>
+
+        <!--ContentPanel - 在此处放置其他内容-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            
+                <ListBox Foreground="Black" Name="postsList" SelectionChanged="postsList_SelectionChanged">
+                    
+                </ListBox>
+        </Grid>
+    </Grid>
+ 
+    <!--演示 ApplicationBar 用法的示例代码-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="按钮 1"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="按钮 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="菜单项 1"/>
+                <shell:ApplicationBarMenuItem Text="菜单项 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+
+</phone:PhoneApplicationPage>

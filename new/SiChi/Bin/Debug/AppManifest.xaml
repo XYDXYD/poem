@@ -1,0 +1,12 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="SiChi" EntryPointType="SiChi.App" RuntimeVersion="4.7.50308.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="SiChi" Source="SiChi.dll" />
+    <AssemblyPart x:Name="Microsoft.Phone.Controls" Source="Microsoft.Phone.Controls.dll" />
+    <AssemblyPart x:Name="Microsoft.Phone.Controls.Toolkit" Source="Microsoft.Phone.Controls.Toolkit.dll" />
+    <AssemblyPart x:Name="Newtonsoft.Json" Source="Newtonsoft.Json.dll" />
+    <AssemblyPart x:Name="org.phprpc.client" Source="org.phprpc.client.dll" />
+    <AssemblyPart x:Name="SinaBase" Source="SinaBase.dll" />
+    <AssemblyPart x:Name="WeiboSdk" Source="WeiboSdk.dll" />
+    <AssemblyPart x:Name="WindowsPhonePostClient" Source="WindowsPhonePostClient.dll" />
+  </Deployment.Parts>
+</Deployment>

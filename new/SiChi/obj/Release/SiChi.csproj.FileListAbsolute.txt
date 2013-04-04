@@ -1,0 +1,151 @@
+C:\Users\xyd\Desktop\修改了字体颜色等\修改了字体颜色等\修改了字体颜色等\trunk\SiChi\obj\Release\SiChi.csprojResolveAssemblyReference.cache
+C:\Users\xyd\Desktop\修改了字体颜色等\修改了字体颜色等\修改了字体颜色等\trunk\SiChi\obj\Release\App.g.cs
+C:\Users\xyd\Desktop\修改了字体颜色等\修改了字体颜色等\修改了字体颜色等\trunk\SiChi\obj\Release\MainPage.g.cs
+C:\Users\xyd\Desktop\修改了字体颜色等\修改了字体颜色等\修改了字体颜色等\trunk\SiChi\obj\Release\View\DebugPage.g.cs
+C:\Users\xyd\Desktop\修改了字体颜色等\修改了字体颜色等\修改了字体颜色等\trunk\SiChi\obj\Release\View\DownloadPage.g.cs
+C:\Users\xyd\Desktop\修改了字体颜色等\修改了字体颜色等\修改了字体颜色等\trunk\SiChi\obj\Release\View\LoginRegisterPage.g.cs
+C:\Users\xyd\Desktop\修改了字体颜色等\修改了字体颜色等\修改了字体颜色等\trunk\SiChi\obj\Release\View\PackagePage.g.cs
+C:\Users\xyd\Desktop\修改了字体颜色等\修改了字体颜色等\修改了字体颜色等\trunk\SiChi\obj\Release\View\PackageSelectPage.g.cs
+C:\Users\xyd\Desktop\修改了字体颜色等\修改了字体颜色等\修改了字体颜色等\trunk\SiChi\obj\Release\View\PoemDetailPage.g.cs
+C:\Users\xyd\Desktop\修改了字体颜色等\修改了字体颜色等\修改了字体颜色等\trunk\SiChi\obj\Release\View\PoemPage.g.cs
+C:\Users\xyd\Desktop\修改了字体颜色等\修改了字体颜色等\修改了字体颜色等\trunk\SiChi\obj\Release\View\RankPage.g.cs
+C:\Users\xyd\Desktop\修改了字体颜色等\修改了字体颜色等\修改了字体颜色等\trunk\SiChi\obj\Release\View\RecitePage.g.cs
+C:\Users\xyd\Desktop\修改了字体颜色等\修改了字体颜色等\修改了字体颜色等\trunk\SiChi\obj\Release\View\TotalRankPage.g.cs
+C:\Users\xyd\Desktop\修改了字体颜色等\修改了字体颜色等\修改了字体颜色等\trunk\SiChi\obj\Release\View\TotalTestPage.g.cs
+C:\Users\xyd\Desktop\修改了字体颜色等\修改了字体颜色等\修改了字体颜色等\trunk\SiChi\obj\Release\View\TotalTestSelectPage.g.cs
+C:\Users\xyd\Desktop\修改了字体颜色等\修改了字体颜色等\修改了字体颜色等\trunk\SiChi\obj\Release\SiChi.g.resources
+C:\Users\xyd\Desktop\修改了字体颜色等\修改了字体颜色等\修改了字体颜色等\trunk\SiChi\Bin\Release\Background.png
+C:\Users\xyd\Desktop\修改了字体颜色等\修改了字体颜色等\修改了字体颜色等\trunk\SiChi\Bin\Release\SiChi.dll
+C:\Users\xyd\Desktop\修改了字体颜色等\修改了字体颜色等\修改了字体颜色等\trunk\SiChi\Bin\Release\SiChi.pdb
+C:\Users\xyd\Desktop\修改了字体颜色等\修改了字体颜色等\修改了字体颜色等\trunk\SiChi\Bin\Release\AppManifest.xaml
+C:\Users\xyd\Desktop\修改了字体颜色等\修改了字体颜色等\修改了字体颜色等\trunk\SiChi\Bin\Release\SiChi.xap
+C:\Users\xyd\Desktop\修改了字体颜色等\修改了字体颜色等\修改了字体颜色等\trunk\SiChi\Bin\Release\Microsoft.Phone.Controls.dll
+C:\Users\xyd\Desktop\修改了字体颜色等\修改了字体颜色等\修改了字体颜色等\trunk\SiChi\Bin\Release\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\xyd\Desktop\修改了字体颜色等\修改了字体颜色等\修改了字体颜色等\trunk\SiChi\Bin\Release\Microsoft.Phone.Controls.xml
+C:\Users\xyd\Desktop\修改了字体颜色等\修改了字体颜色等\修改了字体颜色等\trunk\SiChi\Bin\Release\Microsoft.Phone.Controls.Toolkit.pdb
+C:\Users\xyd\Desktop\修改了字体颜色等\修改了字体颜色等\修改了字体颜色等\trunk\SiChi\Bin\Release\Microsoft.Phone.Controls.Toolkit.xml
+C:\Users\xyd\Desktop\修改了字体颜色等\修改了字体颜色等\修改了字体颜色等\trunk\SiChi\obj\Release\SiChi.dll
+C:\Users\xyd\Desktop\修改了字体颜色等\修改了字体颜色等\修改了字体颜色等\trunk\SiChi\obj\Release\SiChi.pdb
+C:\Users\xyd\Desktop\修改了字体颜色等\修改了字体颜色等\修改了字体颜色等\trunk\SiChi\obj\Release\XapCacheFile.xml
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\obj\Release\ResolveAssemblyReference.cache
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\obj\Release\App.g.i.cs
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\obj\Release\MainPage.g.i.cs
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\obj\Release\View\DebugPage.g.i.cs
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\obj\Release\View\DownloadPage.g.i.cs
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\obj\Release\View\LoginRegisterPage.g.i.cs
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\obj\Release\View\PackagePage.g.i.cs
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\obj\Release\View\PackageSelectPage.g.i.cs
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\obj\Release\View\PoemDetailPage.g.i.cs
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\obj\Release\View\PoemPage.g.i.cs
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\obj\Release\View\PostingPage.g.i.cs
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\obj\Release\View\PostsListPage.g.i.cs
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\obj\Release\View\RankPage.g.i.cs
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\obj\Release\View\RecitePage.g.i.cs
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\obj\Release\View\TotalRankPage.g.i.cs
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\obj\Release\View\TotalTestPage.g.i.cs
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\obj\Release\View\TotalTestSelectPage.g.i.cs
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\obj\Release\SiChi.g.resources
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\obj\Release\SiChi.dll
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\obj\Release\SiChi.pdb
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\Bin\Release\Background.png
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\Bin\Release\SiChi.dll
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\Bin\Release\SiChi.pdb
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\Bin\Release\AppManifest.xaml
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\Bin\Release\SiChi.xap
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\Bin\Release\Microsoft.Phone.Controls.dll
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\Bin\Release\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\Bin\Release\Newtonsoft.Json.dll
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\Bin\Release\org.phprpc.client.dll
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\Bin\Release\WindowsPhonePostClient.dll
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\Bin\Release\Microsoft.Phone.Controls.xml
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\Bin\Release\Microsoft.Phone.Controls.Toolkit.pdb
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\Bin\Release\Microsoft.Phone.Controls.Toolkit.xml
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\obj\Release\XapCacheFile.xml
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\obj\Release\View\SearchPage.g.i.cs
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\obj\Release\View\UserInformation.g.i.cs
+F:\poemSVN\SiChi\Bin\Release\Background.png
+F:\poemSVN\SiChi\Bin\Release\Image\shareButton.jpg
+F:\poemSVN\SiChi\Bin\Release\SiChi.dll
+F:\poemSVN\SiChi\Bin\Release\SiChi.pdb
+F:\poemSVN\SiChi\Bin\Release\AppManifest.xaml
+F:\poemSVN\SiChi\Bin\Release\SiChi.xap
+F:\poemSVN\SiChi\Bin\Release\Microsoft.Phone.Controls.dll
+F:\poemSVN\SiChi\Bin\Release\Microsoft.Phone.Controls.Toolkit.dll
+F:\poemSVN\SiChi\Bin\Release\Newtonsoft.Json.dll
+F:\poemSVN\SiChi\Bin\Release\org.phprpc.client.dll
+F:\poemSVN\SiChi\Bin\Release\SinaBase.dll
+F:\poemSVN\SiChi\Bin\Release\WeiboSdk.dll
+F:\poemSVN\SiChi\Bin\Release\Microsoft.Phone.Controls.xml
+F:\poemSVN\SiChi\Bin\Release\Microsoft.Phone.Controls.Toolkit.pdb
+F:\poemSVN\SiChi\Bin\Release\Microsoft.Phone.Controls.Toolkit.xml
+F:\poemSVN\SiChi\obj\Release\SiChi.csprojResolveAssemblyReference.cache
+F:\poemSVN\SiChi\obj\Release\App.g.cs
+F:\poemSVN\SiChi\obj\Release\MainPage.g.cs
+F:\poemSVN\SiChi\obj\Release\View\DebugPage.g.cs
+F:\poemSVN\SiChi\obj\Release\View\DownloadPage.g.cs
+F:\poemSVN\SiChi\obj\Release\View\LoginRegisterPage.g.cs
+F:\poemSVN\SiChi\obj\Release\View\PackagePage.g.cs
+F:\poemSVN\SiChi\obj\Release\View\PackageSelectPage.g.cs
+F:\poemSVN\SiChi\obj\Release\View\PoemDetailPage.g.cs
+F:\poemSVN\SiChi\obj\Release\View\PoemPage.g.cs
+F:\poemSVN\SiChi\obj\Release\View\PostingPage.g.cs
+F:\poemSVN\SiChi\obj\Release\View\PostsListPage.g.cs
+F:\poemSVN\SiChi\obj\Release\View\RankPage.g.cs
+F:\poemSVN\SiChi\obj\Release\View\RecitePage.g.cs
+F:\poemSVN\SiChi\obj\Release\View\ReplyPage.g.cs
+F:\poemSVN\SiChi\obj\Release\View\SearchPage.g.cs
+F:\poemSVN\SiChi\obj\Release\View\TotalRankPage.g.cs
+F:\poemSVN\SiChi\obj\Release\View\TotalTestPage.g.cs
+F:\poemSVN\SiChi\obj\Release\View\TotalTestSelectPage.g.cs
+F:\poemSVN\SiChi\obj\Release\View\UserInformation.g.cs
+F:\poemSVN\SiChi\obj\Release\SiChi.g.resources
+F:\poemSVN\SiChi\obj\Release\SiChi.dll
+F:\poemSVN\SiChi\obj\Release\SiChi.pdb
+F:\poemSVN\SiChi\obj\Release\XapCacheFile.xml
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\Bin\Release\Image\shareButton.jpg
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\Bin\Release\SinaBase.dll
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\Bin\Release\WeiboSdk.dll
+C:\Users\kaze\Desktop\新建文件夹 (2)\SiChi\obj\Release\View\ReplyPage.g.i.cs
+F:\备份\SiChi\Bin\Release\Background.png
+F:\备份\SiChi\Bin\Release\方正启体简体.ttf
+F:\备份\SiChi\Bin\Release\Image\shareButton.jpg
+F:\备份\SiChi\Bin\Release\Fonts\123.ttf
+F:\备份\SiChi\Bin\Release\SiChi.dll
+F:\备份\SiChi\Bin\Release\SiChi.pdb
+F:\备份\SiChi\Bin\Release\AppManifest.xaml
+F:\备份\SiChi\Bin\Release\SiChi.xap
+F:\备份\SiChi\Bin\Release\Microsoft.Phone.Controls.dll
+F:\备份\SiChi\Bin\Release\Microsoft.Phone.Controls.Toolkit.dll
+F:\备份\SiChi\Bin\Release\Newtonsoft.Json.dll
+F:\备份\SiChi\Bin\Release\org.phprpc.client.dll
+F:\备份\SiChi\Bin\Release\SinaBase.dll
+F:\备份\SiChi\Bin\Release\WeiboSdk.dll
+F:\备份\SiChi\Bin\Release\Microsoft.Phone.Controls.xml
+F:\备份\SiChi\Bin\Release\Microsoft.Phone.Controls.Toolkit.pdb
+F:\备份\SiChi\Bin\Release\Microsoft.Phone.Controls.Toolkit.xml
+F:\备份\SiChi\obj\Release\SiChi.csprojResolveAssemblyReference.cache
+F:\备份\SiChi\obj\Release\App.g.cs
+F:\备份\SiChi\obj\Release\MainPage.g.cs
+F:\备份\SiChi\obj\Release\View\DebugPage.g.cs
+F:\备份\SiChi\obj\Release\View\DownloadPage.g.cs
+F:\备份\SiChi\obj\Release\View\LoginRegisterPage.g.cs
+F:\备份\SiChi\obj\Release\View\PackagePage.g.cs
+F:\备份\SiChi\obj\Release\View\PackageSelectPage.g.cs
+F:\备份\SiChi\obj\Release\View\PoemDetailPage.g.cs
+F:\备份\SiChi\obj\Release\View\PoemPage.g.cs
+F:\备份\SiChi\obj\Release\View\PostingPage.g.cs
+F:\备份\SiChi\obj\Release\View\PostsListPage.g.cs
+F:\备份\SiChi\obj\Release\View\RankPage.g.cs
+F:\备份\SiChi\obj\Release\View\RecitePage.g.cs
+F:\备份\SiChi\obj\Release\View\ReplyPage.g.cs
+F:\备份\SiChi\obj\Release\View\SearchPage.g.cs
+F:\备份\SiChi\obj\Release\View\TotalRankPage.g.cs
+F:\备份\SiChi\obj\Release\View\TotalTestPage.g.cs
+F:\备份\SiChi\obj\Release\View\TotalTestSelectPage.g.cs
+F:\备份\SiChi\obj\Release\View\UserInformation.g.cs
+F:\备份\SiChi\obj\Release\SiChi.g.resources
+F:\备份\SiChi\obj\Release\SiChi.dll
+F:\备份\SiChi\obj\Release\SiChi.pdb
+F:\备份\SiChi\obj\Release\XapCacheFile.xml
+F:\备份\SiChi\Bin\Release\Image\NewImage\OK.png
+F:\备份\SiChi\Bin\Release\Image\NewImage\取消.png

@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5F999961-97E3-491A-A486-E8653A2DC59C}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SiChi</RootNamespace>
+    <AssemblyName>SiChi</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <TargetFrameworkProfile>WindowsPhone71</TargetFrameworkProfile>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>
+    </SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>SiChi.xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>SiChi.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <Utf8Output>true</Utf8Output>
+    <ExpressionBlendVersion>4.0.30816.0</ExpressionBlendVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Phone" />
+    <Reference Include="Microsoft.Phone.Controls, Version=7.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Phone.Controls.Toolkit, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b772ad94eb9ca604, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Phone.Interop" />
+    <Reference Include="Microsoft.Xna.Framework" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="org.phprpc.client">
+      <HintPath>Bin\Debug\org.phprpc.client.dll</HintPath>
+    </Reference>
+    <Reference Include="SinaBase">
+      <HintPath>C:\Users\xyd\Desktop\WeiboWP7SDKLibrary\SinaBase.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Servicemodel.Web" />
+    <Reference Include="System.Windows" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Xml" />
+    <Reference Include="mscorlib.extensions" />
+    <Reference Include="WeiboSdk">
+      <HintPath>C:\Users\xyd\Desktop\WeiboWP7SDKLibrary\WeiboSdk.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsPhonePostClient">
+      <HintPath>C:\Users\kaze\Desktop\WindowsPhonePostClient.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FileManager.cs" />
+    <Compile Include="Model\GetData.cs" />
+    <Compile Include="Model\LoginAndRegister.cs" />
+    <Compile Include="Model\Package.cs" />
+    <Compile Include="Model\PackageManager.cs" />
+    <Compile Include="Model\Poem.cs" />
+    <Compile Include="Model\TestData.cs" />
+    <Compile Include="Model\User.cs" />
+    <Compile Include="Model\UserManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\TranslatorService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="View\DebugPage.xaml.cs">
+      <DependentUpon>DebugPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\DownloadPage.xaml.cs">
+      <DependentUpon>DownloadPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\LoginRegisterPage.xaml.cs">
+      <DependentUpon>LoginRegisterPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\PackagePage.xaml.cs">
+      <DependentUpon>PackagePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\PackageSelectPage.xaml.cs">
+      <DependentUpon>PackageSelectPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\PoemDetailPage.xaml.cs">
+      <DependentUpon>PoemDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\PoemPage.xaml.cs">
+      <DependentUpon>PoemPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\PostingPage.xaml.cs">
+      <DependentUpon>PostingPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\PostsListPage.xaml.cs">
+      <DependentUpon>PostsListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\RankPage.xaml.cs">
+      <DependentUpon>RankPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\RecitePage.xaml.cs">
+      <DependentUpon>RecitePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ReplyPage.xaml.cs">
+      <DependentUpon>ReplyPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\SearchPage.xaml.cs">
+      <DependentUpon>SearchPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\TotalRankPage.xaml.cs">
+      <DependentUpon>TotalRankPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\TotalTestPage.xaml.cs">
+      <DependentUpon>TotalTestPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\TotalTestSelectPage.xaml.cs">
+      <DependentUpon>TotalTestSelectPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\UserInformation.xaml.cs">
+      <DependentUpon>UserInformation.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\DebugPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\DownloadPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\LoginRegisterPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\PackagePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\PackageSelectPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\PoemDetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\PoemPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\PostingPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\PostsListPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\RankPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\RecitePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ReplyPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\SearchPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\TotalRankPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\TotalTestPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\TotalTestSelectPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\UserInformation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Image\appbar.download.rest.png" />
+    <Content Include="Image\appbar.upload.rest.png" />
+    <Content Include="Image\NewImage\IntroductionAll.png" />
+    <Content Include="Image\NewImage\IntroductionSelectBackground.png" />
+    <Content Include="Image\NewImage\ListAll.png" />
+    <Content Include="Image\NewImage\ListBackground.png" />
+    <Content Include="Image\NewImage\LoginAll.png" />
+    <Content Include="Image\NewImage\LoginMainAll.png" />
+    <Content Include="Image\NewImage\MainMenuAfterLoginAll.png" />
+    <Content Include="Image\NewImage\MainMenuAfterLoginBackground.png" />
+    <Content Include="Image\NewImage\MainMenuAll.png" />
+    <Content Include="Image\NewImage\MainMenu_LoginBackground.png" />
+    <Content Include="方正启体简体.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\NewImage\OK.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\NewImage\readme.txt" />
+    <Content Include="Image\NewImage\ReciteAll.png" />
+    <Content Include="Image\NewImage\ReciteBackground.png" />
+    <Content Include="Image\NewImage\RegisterAll.png" />
+    <Content Include="Image\NewImage\RegisterBackground.png" />
+    <Content Include="Image\NewImage\SearchAll.png" />
+    <Content Include="Image\NewImage\SearchBackground.png" />
+    <Content Include="Image\NewImage\SelectAll.png" />
+    <Content Include="Image\NewImage\Splash.png" />
+    <Content Include="Image\NewImage\SplashBar.png" />
+    <Content Include="Image\NewImage\SplashScreenImage.png" />
+    <Content Include="Image\NewImage\TestAll.png" />
+    <Content Include="Image\NewImage\TestBackground.png" />
+    <Content Include="Image\NewImage\UserStatusBackground.png" />
+    <Content Include="Image\NewImage\下一首.png" />
+    <Content Include="Image\NewImage\切换用户.png" />
+    <Content Include="Image\NewImage\去论坛橙色.png" />
+    <Content Include="Image\NewImage\去论坛蓝色.png" />
+    <Content Include="Image\NewImage\发帖.png" />
+    <Content Include="Image\NewImage\取消.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\NewImage\回复.png" />
+    <Content Include="Image\NewImage\帮助.png" />
+    <Content Include="Image\NewImage\开始测试.png" />
+    <Content Include="Image\NewImage\开始背诵.png" />
+    <Content Include="Image\NewImage\排名详情.png" />
+    <Content Include="Image\NewImage\搜索.png" />
+    <Content Include="Image\NewImage\朗读.png" />
+    <Content Include="Image\NewImage\查找诗词.png" />
+    <Content Include="Image\NewImage\注册.png" />
+    <Content Include="Image\NewImage\测试.png" />
+    <Content Include="Image\NewImage\浏览诗集.png" />
+    <Content Include="Image\NewImage\用户状态.png" />
+    <Content Include="Image\NewImage\登录.png" />
+    <Content Include="Image\NewImage\背景介绍.png" />
+    <Content Include="Image\NewImage\英雄排行榜.png" />
+    <Content Include="Image\NewImage\跳过.png" />
+    <Content Include="Image\NewImage\返回.png" />
+    <Content Include="Image\NewImage\选项.png" />
+    <Content Include="Image\shareButton.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="moive.mp4" />
+    <Content Include="SplashScreenImage.jpg" />
+    <Content Include="WeiboIcons\appbar_publish.png" />
+    <Content Include="WeiboIcons\appbar_TakePhoto.png" />
+    <Content Include="WeiboIcons\appbar_topic.png" />
+    <Content Include="Fonts\123.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Properties\WMAppManifest.xml" />
+    <None Include="Service References\TranslatorService\SiChi.TranslatorService.GetTranslationsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TranslatorService\SiChi.TranslatorService.TranslateArray2Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TranslatorService\SiChi.TranslatorService.TranslateArrayResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TranslatorService\soap.wsdl" />
+    <None Include="Service References\TranslatorService\soap.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\TranslatorService\soap1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\TranslatorService\soap2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\TranslatorService\soap3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\TranslatorService\SoapService.wsdl" />
+    <Resource Include="Image\LOGO.png" />
+    <Content Include="Image\LastPage.png" />
+    <Content Include="Image\leaf1.png" />
+    <Content Include="Image\leaf2.png" />
+    <Content Include="Image\leaf3.png" />
+    <Content Include="Image\NextPage.png" />
+    <Content Include="Image\TextBox.png" />
+    <Content Include="Image\主界面.jpg" />
+    <Content Include="Image\OtherPage.jpg" />
+    <Content Include="Image\RankTotal.jpg" />
+    <Content Include="Image\Button.png" />
+    <Content Include="Image\RankInfo.jpg" />
+    <Content Include="Image\RankButton.png" />
+    <Content Include="Image\RecitePage.jpg" />
+    <Content Include="Image\RankCover.jpg" />
+    <Content Include="Image\Download.png" />
+    <Content Include="Image\Cloud.png" />
+    <Resource Include="ApplicationIcon.png" />
+    <Content Include="ServiceReferences.ClientConfig" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Background.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Service References\TranslatorService\configuration91.svcinfo" />
+    <None Include="Service References\TranslatorService\configuration.svcinfo" />
+    <None Include="Service References\TranslatorService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\TranslatorService\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+</Project>

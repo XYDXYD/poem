@@ -1,0 +1,105 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="SiChi.View.LoginRegisterPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
+    FontFamily=".\Fonts\123.ttf#DFPWaWa-B5"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True"
+    Style="{StaticResource PageTranstionStyle}"
+    BackKeyPress="PhoneApplicationPage_BackKeyPress">
+
+    <!--LayoutRoot 是包含所有页面内容的根网格-->
+    <Grid x:Name="LayoutRoot">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Image/NewImage/RegisterBackground.png"/>
+        </Grid.Background>
+        <!--枢轴控件-->
+
+       
+        <controls:Pivot Foreground="Black" Title="诗趣" Name="pivot">
+            <!--枢轴项一-->
+            <controls:PivotItem Header="登录" Name="loginPivot">
+                <Grid Width="450" HorizontalAlignment="Center" Height="600" VerticalAlignment="Center">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="310"/>
+                        <ColumnDefinition Width="140"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="70"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="70"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="70"/>
+                        <RowDefinition Height="20*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="  用户名"  Grid.Row="1" Foreground="Black" Margin="0,18,0,8" HorizontalAlignment="Left" Width="109"  FontSize="24"/>
+                    <Grid Grid.Row="1" Grid.ColumnSpan="2" Margin="113,0,0,0">
+             
+                        <TextBox KeyUp="usernameBox_KeyUp" Name="usernameBox" BorderThickness="2" BorderBrush="AliceBlue" HorizontalAlignment="Right" Width="337"/>
+                    </Grid>
+                    <TextBlock Text="  密码" Grid.Row="3" Foreground="Black" Margin="0,19,0,8" HorizontalAlignment="Left" Width="109" FontSize="24"/>
+                    <Grid Grid.Row="3" Grid.ColumnSpan="2" Margin="113,0,0,0">
+                   
+                        <PasswordBox KeyUp="usernameBox_KeyUp" Name="passwdBox" />
+                    </Grid>
+                    <Image ManipulationStarted="Button_ManipulationStarted" ManipulationCompleted="Button_ManipulationCompleted" Name="loginButton" Grid.Row="6" Tap="loginButton_Click" Source="/Image/NewImage/登录.png" Margin="150,10,0,193"/>
+                    <Image Tap="returnButton_Click"  ManipulationStarted="Button_ManipulationStarted" ManipulationCompleted="Button_ManipulationCompleted" Source="/Image/NewImage/返回.png" HorizontalAlignment="Left" Height="106" Margin="-21,209,0,0" Grid.Row="6" VerticalAlignment="Top" Width="130"/>
+
+                </Grid>
+            </controls:PivotItem>
+
+            <!--枢轴项二-->
+            <controls:PivotItem Header="注册" Name="registerPivot">
+                <Grid Width="450" HorizontalAlignment="Center" Height="600" VerticalAlignment="Center">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="310"/>
+                        <ColumnDefinition Width="140"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="70"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="70"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="70"/>
+                        <RowDefinition Height="25"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="  用户名" FontSize="24" Grid.Row="1" Foreground="Black" Margin="8,26,0,10" HorizontalAlignment="Left" Width="113"/>
+                    <Grid Grid.Row="1" Grid.ColumnSpan="2" Margin="121,0,0,0">
+                        <TextBox Name="nameBoxReg" />
+                    </Grid>
+                    <TextBlock Text="  密码" FontSize="24" Grid.Row="3" Foreground="Black" Margin="4,25,0,10" HorizontalAlignment="Left" Width="117"/>
+                    <Grid Grid.Row="3" Grid.ColumnSpan="2" Margin="121,0,0,0">
+                        <PasswordBox Name="passwdBox1" />
+                    </Grid>
+                    <TextBlock Text="  重复密码" FontSize="24" Grid.Row="5" Foreground="Black" Margin="10,24,0,10" HorizontalAlignment="Left" Width="113"/>
+                    
+                    <Grid Grid.Row="5" Grid.ColumnSpan="2" Margin="121,0,0,0">
+                        <PasswordBox Name="passwdBox2" />
+                    </Grid>
+
+                    <Image ManipulationStarted="Button_ManipulationStarted" ManipulationCompleted="Button_ManipulationCompleted" Name="submitButton" Grid.Row="6" Source="/Image/NewImage/注册.png" Tap="submitButton_Click" Height="103" VerticalAlignment="Bottom" Margin="83,0,66,-103" Grid.ColumnSpan="2" />
+                    <Image Tap="returnButton_Click" ManipulationStarted="Button_ManipulationStarted" ManipulationCompleted="Button_ManipulationCompleted" Source="/Image/NewImage/返回.png" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="252" Margin="-18,211,0,-290" Grid.Row="6" Height="104"/>
+                </Grid>
+            </controls:PivotItem>
+        </controls:Pivot>
+        <Canvas Name="selectCanvas" Margin="0,0,10,0" Visibility="Visible">
+            <Canvas.Background>
+                <ImageBrush ImageSource="/Image/NewImage/MainMenu_LoginBackground.png"/>
+            </Canvas.Background>
+            <Image Tap="selectLogin_Tap_1" Name="selectLogin" ManipulationStarted="Button_ManipulationStarted" ManipulationCompleted="Button_ManipulationCompleted" Height="106" Source="/Image/NewImage/登录.png" Canvas.Left="165" Canvas.Top="373" Width="162"/>
+            <Image Tap="selectRegister_Tap_1" Name="selectRegister" ManipulationStarted="Button_ManipulationStarted" ManipulationCompleted="Button_ManipulationCompleted" Height="106" Source="/Image/NewImage/注册.png" Canvas.Left="165" Canvas.Top="528" Width="162"/>
+            <Image Tap="selectBack_Tap_1" Name="selectBack" ManipulationStarted="Button_ManipulationStarted" ManipulationCompleted="Button_ManipulationCompleted" Height="106" Source="/Image/NewImage/返回.png" Canvas.Top="652" Width="162" Canvas.Left="-24"/>
+        </Canvas>
+    </Grid>
+
+</phone:PhoneApplicationPage>
