@@ -70,7 +70,7 @@
                     <RowDefinition Height="250*" />
                 </Grid.RowDefinitions>
                 <TextBox Name="replyText" Grid.Row="1" TextWrapping="Wrap" Margin="0,0,0,0"></TextBox>
-                <Button Name="submitBtn" Content="提交" Grid.Row="2" BorderThickness="0" Width="200" Click="submitBtn_Click">
+                <Button Foreground="White" Name="submitBtn" Content="提交" Grid.Row="2" BorderThickness="0" Width="200" Click="submitBtn_Click">
                     <Button.Background>
                         <ImageBrush ImageSource="/Image/Button.png" />
                     </Button.Background>

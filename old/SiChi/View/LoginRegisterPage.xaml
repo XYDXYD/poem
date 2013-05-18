@@ -44,21 +44,21 @@
                         <Grid.Background>
                             <ImageBrush ImageSource="/Image/TextBox.png"/>
                         </Grid.Background>
-                        <TextBox KeyUp="usernameBox_KeyUp" Name="usernameBox" BorderThickness="0" Opacity="0.5" HorizontalAlignment="Right" Width="337"/>
+                        <TextBox Foreground="White" KeyUp="usernameBox_KeyUp" Name="usernameBox" BorderThickness="0" Opacity="0.5" HorizontalAlignment="Right" Width="337"/>
                     </Grid>
                     <TextBlock Text="  密码" Grid.Row="3" Foreground="Black" Margin="0,19,0,8" HorizontalAlignment="Left" Width="109" FontSize="24"/>
                     <Grid Grid.Row="3" Grid.ColumnSpan="2" Margin="113,0,0,0">
                         <Grid.Background>
                             <ImageBrush ImageSource="/Image/TextBox.png"/>
                         </Grid.Background>
-                        <PasswordBox KeyUp="usernameBox_KeyUp" Name="passwdBox" Opacity="0.5"/>
+                        <PasswordBox Foreground="White" KeyUp="usernameBox_KeyUp" Name="passwdBox" Opacity="0.5"/>
                     </Grid>
-                    <Button Name="loginButton" Grid.Row="5" Content="登录" Click="loginButton_Click" BorderThickness="0" Margin="49,0,117,0">
+                    <Button Foreground="White" Name="loginButton" Grid.Row="5" Content="登录" Click="loginButton_Click" BorderThickness="0" Margin="49,0,117,0">
                         <Button.Background>
                             <ImageBrush ImageSource="/Image/Button.png"/>
                         </Button.Background>
                     </Button>
-                    <Button Name="registerButton" Grid.Row="5" Grid.Column="1" Content="注册" Click="registerButton_Click" BorderThickness="0" Margin="-53,0,53,0">
+                    <Button Foreground="White" Name="registerButton" Grid.Row="5" Grid.Column="1" Content="注册" Click="registerButton_Click" BorderThickness="0" Margin="-53,0,53,0">
                         <Button.Background>
                             <ImageBrush ImageSource="/Image/Button.png"/>
                         </Button.Background>
@@ -91,14 +91,14 @@
                         <Grid.Background>
                             <ImageBrush ImageSource="/Image/TextBox.png"/>
                         </Grid.Background>
-                        <TextBox Name="nameBoxReg" Opacity="0.5"/>
+                        <TextBox Foreground="White" Name="nameBoxReg" Opacity="0.5"/>
                     </Grid>
                     <TextBlock Text="  密码" FontSize="24" Grid.Row="3" Foreground="Black" Margin="0,8,0,27" HorizontalAlignment="Left" Width="117"/>
                     <Grid Grid.Row="3" Grid.ColumnSpan="2" Margin="121,0,0,0">
                         <Grid.Background>
                             <ImageBrush ImageSource="/Image/TextBox.png"/>
                         </Grid.Background>
-                        <PasswordBox Name="passwdBox1" Opacity="0.5"/>
+                        <PasswordBox Foreground="White" Name="passwdBox1" Opacity="0.5"/>
                     </Grid>
                     <TextBlock Text="  重复密码" FontSize="24" Grid.Row="5" Foreground="Black" Margin="0,8,0,26" HorizontalAlignment="Left" Width="113"/>
                     
@@ -106,15 +106,15 @@
                         <Grid.Background>
                             <ImageBrush ImageSource="/Image/TextBox.png"/>
                         </Grid.Background>
-                        <PasswordBox Name="passwdBox2" Opacity="0.5"/>
+                        <PasswordBox Foreground="White" Name="passwdBox2" Opacity="0.5"/>
                     </Grid>
 
-                    <Button Name="submitButton" Grid.Row="7" Content="提交" Click="submitButton_Click" BorderThickness="0" Margin="65,0,109,0">
+                    <Button Foreground="White" Name="submitButton" Grid.Row="7" Content="提交" Click="submitButton_Click" BorderThickness="0" Margin="65,0,109,0">
                         <Button.Background>
                             <ImageBrush ImageSource="/Image/Button.png"/>
                         </Button.Background>
                     </Button>
-                    <Button Name="returnButton" Grid.Row="7" Content="返回" Click="returnButton_Click" BorderThickness="0" HorizontalAlignment="Right" Margin="0,0,-63,0" Width="140">
+                    <Button Foreground="White" Name="returnButton" Grid.Row="7" Content="返回" Click="returnButton_Click" BorderThickness="0" HorizontalAlignment="Right" Margin="0,0,-63,0" Width="140">
                         <Button.Background>
                             <ImageBrush ImageSource="/Image/Button.png"/>
                         </Button.Background>

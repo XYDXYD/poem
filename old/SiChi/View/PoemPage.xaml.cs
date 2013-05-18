@@ -115,7 +115,7 @@ namespace SiChi.View
             System.Diagnostics.Debug.WriteLine(button.ToString());
             if (button.Content.ToString() == "朗读")
             {
-                button.Content = "请稍后";
+                button.Content = "请稍候";
                 if (_sound != null) _sound.Dispose();
 
                 var applictionid = "5B75316E24BE0E1E19DE874CE806DD064AFAC5EA";

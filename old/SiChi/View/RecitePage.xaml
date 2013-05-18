@@ -32,12 +32,12 @@
                 </StackPanel>
             </ScrollViewer>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="1">
-                <Button Content="OK" Click="OnOkButtonClicked" BorderThickness="0" Width="170">
+                <Button Foreground="White" Content="OK" Click="OnOkButtonClicked" BorderThickness="0" Width="170">
                     <Button.Background>
                         <ImageBrush ImageSource="/Image/Button.png"/>
                     </Button.Background>
                 </Button>
-                <Button Content="Cancel" Click="OnCancelButtonClicked" Width="170" BorderThickness="0">
+                <Button Foreground="White" Content="Cancel" Click="OnCancelButtonClicked" Width="170" BorderThickness="0">
                     <Button.Background>
                         <ImageBrush ImageSource="/Image/Button.png"/>
                     </Button.Background>

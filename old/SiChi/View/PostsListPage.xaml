@@ -30,7 +30,7 @@
             <StackPanel Orientation="Horizontal">
                 <TextBlock Foreground="Black" x:Name="PageTitle" Text="浏览帖子" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
                 <TextBlock Text="           " />
-                <Button Name="sendPost" BorderThickness="0"  Content="发帖" Click="sendPost_Click">
+                <Button Foreground="White" Name="sendPost" BorderThickness="0"  Content="发帖" Click="sendPost_Click">
                     <Button.Background>
                         <ImageBrush ImageSource="/Image/Button.png"/>
                     </Button.Background>

@@ -58,13 +58,13 @@
 				</Grid.RowDefinitions>
 				
 				<StackPanel Orientation="Horizontal" Grid.Row="0">
-					    <TextBox Name="textBox" Width="356" BorderThickness="0">
+					    <TextBox Foreground="White" Name="textBox" Width="356" BorderThickness="0">
 						    <TextBox.Background>
 							    <ImageBrush ImageSource="/Image/TextBox.png"></ImageBrush>
 						    </TextBox.Background>
 					    </TextBox>
 					
-	            	        <Button Name="button" Content="查询" Click="OnButtonClicked" Height="83" VerticalAlignment="Top" HorizontalAlignment="Right" Width="100" BorderThickness="0">
+	            	        <Button Foreground="White" Name="button" Content="查询" Click="OnButtonClicked" Height="83" VerticalAlignment="Top" HorizontalAlignment="Right" Width="100" BorderThickness="0">
 	            		         <Button.Background>
 	            			         <ImageBrush ImageSource="/Image/Button.png"/>       		
 						    </Button.Background>
